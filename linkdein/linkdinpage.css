@@ -1,0 +1,672 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+header {
+    border-bottom: 2px solid white;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.one {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: start;
+}
+
+.oneb {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: flex-end;
+}
+
+.two {
+    margin-left: 300px;
+    padding-right: 30px;
+
+}
+
+.two>a {
+    color: black;
+}
+
+.twoa {
+    margin-left: 20px;
+}
+
+.twoa>h1 {
+    text-align: center;
+    font-size: 17px;
+    padding: 2px;
+
+}
+
+.twob {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.twoc {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.twod {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.twoe {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.twof {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.twog {
+    border-left: 2px solid black;
+}
+
+.twog>img {
+    text-align: center;
+    border-radius: 50%;
+}
+
+.twoh>p {
+    font-weight: 800;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    background-color: #f5f5f5;
+    margin: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nava {
+    background-color: white;
+    height: 1100px;
+    width: 400px;
+    background-image: url(background.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    position: relative;
+  
+}
+
+.nava1 {
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    height: 94px;
+    margin: 7px;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    margin: 0;
+    z-index: 1;
+}
+
+.nava2 {
+    background-image: url(Profile\ image.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.nava1a {
+    margin: 0;
+    height: 50px;
+    width: 390px;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+
+}
+
+.nav3 {
+    height: 120px;
+    width: 400px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    border: 2px solid grey;
+}
+
+.nav3a {
+    float: left;
+    margin-left: 8px;
+}
+
+.nav3b {
+    float: right;
+    margin-right: 8px;
+    color: blue;
+}
+
+.sai {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: white;
+    height: 820px;
+    width: 400px;
+    position: absolute;
+    top: 180px;
+    border-radius: 10px;
+    /* z-index: -1; */
+}
+
+.sai1a {
+    display: flex;
+    align-items: center;
+
+}
+
+.sai1 {
+    height: 124px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 330px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid grey;
+}
+
+.sai1>h2,
+h3 {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.sai1a {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.sai1a>h1 {
+    float: right;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.sai>.sai1a {
+    text-align: center;
+}
+
+.oza {
+    height: 550px;
+    width: 400px;
+    margin: 0%;
+    background-color: white;
+    position: absolute;
+    top: 465px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    z-index: 1;
+}
+
+.oza>h1 {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.mai {
+    height: 100px;
+    width: 400px;
+    background-color: #F5F5F5;
+    margin: 0%;
+    position: absolute;
+    top: 1000px;
+}
+
+.navb {
+    background-color: #F5F5F5;
+    height: 2000px;
+    width: 600px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border-top: 2px solid grey;
+
+}
+
+.navc {
+    background-color: #F5F5F5;
+    height: 1000px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.navb1 {
+    margin: 0%;
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.navb1>input {
+    margin-left: 20px;
+}
+
+
+.navb2 {
+    height: 50px;
+    width: 600px;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    cursor: pointer;
+
+    border-radius: 20px 0px 20px 0;
+    border-bottom: 2px solid #f5f5f5;
+}
+.navb2 :hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.navb2a>span {
+    text-align: center;
+    padding: 5px;
+}
+
+.navb2>.navb2a {
+    margin-left: 15px;
+}
+
+.post-icon {
+
+    color: lightblue;
+}
+
+.post-video {
+    color: lightgreen;
+}
+
+.post-event {
+    color: rgb(222, 159, 40);
+}
+
+.post-article {
+    color: rgb(180, 42, 42);
+}
+
+.navb3 {
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    margin: 0%;
+    position: absolute;
+    top: 170px;
+}
+
+.navb3>img {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+.navb3>h2 {
+    margin-top: 5px;
+}
+
+.navb3>h2,
+h3 {
+    padding: 0%;
+}
+
+.navb3>i {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Thid div contains demo post image */
+
+.navb4 {
+    height: 300px;
+    width: 600px;
+    margin: 0%;
+    background-image: url("demo post.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 270px;
+}
+
+.navb5 {
+    margin: 0%;
+    background-color: white;
+    position: absolute;
+    top: 570px;
+    height: 40px;
+    width: 600px;
+    display: flex;
+}
+
+.navb5>img {
+    margin-left: 5px;
+    padding: 5px;
+    float: left;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navb5>p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.navb6 {
+    height: 50px;
+    width: 600px;
+    margin: 0%;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    top: 610px;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    cursor: pointer;
+}
+.navb6 :hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.navb6a>span {
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.navb6>a {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.navb7 {
+    height: 700px;
+    width: 600px;
+    margin: 0%;
+    position: absolute;
+    top: 680px;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.navb7a {
+    margin: 5px;
+    padding: 5px;
+}
+
+.navb7a>img {
+    float: left;
+}
+
+.navb7b {
+    margin: 10px;
+}
+
+.navb7b>img {
+    height: 25px;
+}
+
+.navb7b>span {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.navb7c {
+    margin: 10px;
+    padding: 10px;
+}
+
+.navb7c>a {
+    margin-left: 10px;
+}
+
+.navc1 {
+    width: 400px;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 2px solid grey;
+}
+
+.navc1a>h1 {
+    float: left;
+}
+
+.navc1a>i {
+    padding-top: 20px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+.navc1a>h1 {
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.navc2 {
+    background: white;
+    width: 400px;
+    height: 280px;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 2px solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+}
+
+.navc2a {
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navc2a>p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navc3 {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: 0%;
+    position: absolute;
+    top: 360px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.navc3a{
+   display: flex;
+   justify-content: space-between;
+   width: 400px;
+   margin-top: 5px;
+}
+
+
+
+.navc3b {
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.navc3c {
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    margin: 0%;
+    background: white;
+    top: 400px;
+    border-bottom: 2px solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navc3ca {
+    margin: 15px;
+    padding: 15px;
+}
+
+.navc3ca>ul {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navc3a>p {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.navc4 {
+    height: 400px;
+    width: 400px;
+    margin: 0%;
+    background-color: white;
+    position: absolute;
+    top: 570px;
+    border-top: 2px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navc4a {
+    /* display: inline; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.navc4a>h1 {
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.navc4a>i {
+    float: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.navc4b {
+    background-color: white;
+    height: 440px;
+    width: 400px;
+    position: absolute;
+    top: 55px;
+    border-bottom: 2px solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.navc4b>img {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navc4b>h1 {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.navc4b>a {
+    text-decoration: none;
+}
+
+.linkdin-news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
